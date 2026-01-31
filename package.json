@@ -1,0 +1,24 @@
+{
+  "name": "yt-downloader",
+  "version": "1.0.0",
+  "description": "YouTube Downloader dengan scraper nyata",
+  "main": "index.js",
+  "scripts": {
+    "start": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.0"
+  },
+  "keywords": [
+    "youtube",
+    "downloader",
+    "scraper",
+    "vercel"
+  ],
+  "author": "Herza",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.x"
+  }
+}
